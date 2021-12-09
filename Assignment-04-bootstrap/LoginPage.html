@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>TP4774 - Assignment 04 - Bootstrap</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/navBar.css">
+        <link rel="stylesheet" type="text/css" href="CSS/background.CSS">
+        <link rel="stylesheet" type="text/css" href="CSS/footer.css">
+        <link rel="stylesheet" type="text/css" href="CSS/Login.css">   
+	</head>
+    
+	<body>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html"><img src="images/small-logo.png" 
+                style="float: right;width: 25px; height: 25;"></a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SignUpPage.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="LoginPage.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="BookCatalogue.html">Book Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactPage.html">Contact page</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <header class="page-header header container-fluid">
+        </header>
+        <!-- Login Page -->
+
+        <div class="signup-form">
+            <form action="/examples/actions/confirmation.php" method="post">
+                <h2>Log IN</h2>
+                <p class="hint-text">Login using your University Credencials</p>
+                
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                </div>
+                <div class="form-group" >
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
+                </div>
+            </form>
+            <div class="text-center" style="color: black;">Don't have an account? <a href="SignUpPage.html" style="color: black;">Sign Up</a></div>
+        </div>
+
+
+        
+
+        <footer class ="footer-border">
+            <div class="container features">
+                <div class="row">
+                    <div class="col-4">
+                        <h3 class="feature-title">Useful Links</h3>
+                        <p>
+                            <a class="footer-link" href="https://hmu.gr/">Hellenic Mediterenian University</a>
+                            <p>
+                                <!--stupid way to add one line of space between the two-->
+                            </p> 
+                            <a class="footer-link" href="https://eclass.hmu.gr">Eclass-Open courses Hmu</a>
+                            <p>
+                                <!--stupid way to add one line of space between the two-->
+                            </p> 
+                            <a class="footer-link" href="https://www.heal-link.gr/">SEAB</a>
+                        </p>   
+                    </div>           
+                    <div class="col-4">
+                        <h3 class="feature-title">HMU</h3>
+                        <img src="images/small-logo.png" class="img-fluid" href ="index.html">
+                    </div>
+                    <div class="col-4">
+                        <h7 class="feature-title">Contact us</h7>
+                        <p>
+                            <a style="color: white;">address:Hmu Library,Estavromenos,71410,Heraklion Crete</a>
+                        </p>
+                        <p>
+                            <a style="color: white;">Telephone/fax: +30-2810-379368</a>
+                        </p>
+                        <p>
+                            <a style="color: white;">Telephone/fax: +30-2810-379368</a>
+                        </p>
+                        <p>
+                            <a style="color: white;">Working Hours : Monday-tuesday 8:00-15:30</a>
+                            <a style="color: white;">wendsday-friday 8:00-19:00</a>
+                        </p>
+                        <p>
+                            <a style="color: white;">email : LibHer@hmu.gr</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </footer>
+
+        <script src="jquery-3.5.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="JavaScript/main.js"></script>
+
+	</body>
+	
+</html>

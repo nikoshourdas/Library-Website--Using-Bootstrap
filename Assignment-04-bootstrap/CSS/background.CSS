@@ -1,0 +1,26 @@
+.header {
+    background-image: url('../images/logo-hmu.png');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+div.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+}
+  
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+  
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
